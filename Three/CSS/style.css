@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #2b6777;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    font-size: 24pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px white;
+}
+
+.calculator:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+}
+
+#showResults {
+    height: 100%;
+}
+
+.mathmaticians {
+    margin-top: 20px;
+    font-size: 18pt;
+}
